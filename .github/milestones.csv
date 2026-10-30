@@ -1,0 +1,6 @@
+﻿title,due_on_utc,description
+M1 — Foundation,2026-11-15T23:59:00Z,"Kiến trúc, Flutter scaffold, Firebase, Auth, data contract"
+M2 — Standard Trip,2026-11-29T23:59:00Z,"Đặt chuyến tiêu chuẩn, tìm tài xế, nhận chuyến nguyên tử, tracking"
+M3 — Carpool Schedule,2026-12-13T23:59:00Z,"Lịch tiện chuyến, matching, giữ ghế, pricing"
+M4 — Shared Trip,2026-12-20T23:59:00Z,"Proposal A/B, route optimization, approval và atomic commit"
+M5 — Final Delivery,2026-12-27T23:59:00Z,"Test report, sửa lỗi, tài liệu và demo"

@@ -1,0 +1,29 @@
+﻿code,title,milestone,labels,assignee,body_path
+GOR-001,Chốt kiến trúc và quy ước code,M1 — Foundation,"type:task,module:architecture,priority:p0",Member 2,.github/issues/GOR-001.md
+GOR-002,Khởi tạo Flutter app và CI cơ bản,M1 — Foundation,"type:task,module:flutter,priority:p0",nquocthinh06,.github/issues/GOR-002.md
+GOR-003,Thiết kế Firestore schema và data contract,M1 — Foundation,"type:task,module:firebase,priority:p0",Member 2,.github/issues/GOR-003.md
+GOR-004,Tạo Firebase project và cấu hình FlutterFire,M1 — Foundation,"type:task,module:firebase,priority:p0",Member 2,.github/issues/GOR-004.md
+GOR-005,Xây dựng Auth và hồ sơ người dùng,M1 — Foundation,"type:feature,module:firebase,priority:p1",Member 2,.github/issues/GOR-005.md
+GOR-006,"Tạo màn hình Auth, Profile và role flow",M1 — Foundation,"type:feature,module:flutter,priority:p1",nquocthinh06,.github/issues/GOR-006.md
+GOR-007,Xây dựng Firestore Security Rules nền,M1 — Foundation,"type:task,module:security,priority:p0",Member 2,.github/issues/GOR-007.md
+GOR-008,Tích hợp Google Maps và chọn điểm đi/đến,M1 — Foundation,"type:feature,module:maps,priority:p1",nquocthinh06,.github/issues/GOR-008.md
+GOR-009,"Xây dựng Trip entity, repository và state machine",M2 — Standard Trip,"type:feature,module:domain,priority:p0",Member 2,.github/issues/GOR-009.md
+GOR-010,Tạo yêu cầu đặt chuyến tiêu chuẩn,M2 — Standard Trip,"type:feature,module:trip,priority:p0",nquocthinh06,.github/issues/GOR-010.md
+GOR-011,Tính khoảng cách Haversine và lọc tài xế sơ bộ,M2 — Standard Trip,"type:feature,module:algorithm,priority:p1",Member 2,.github/issues/GOR-011.md
+GOR-012,Xây dựng tìm tài xế và trạng thái Online,M2 — Standard Trip,"type:feature,module:firebase,priority:p1",Member 2,.github/issues/GOR-012.md
+GOR-013,Xây dựng giao diện Driver nhận yêu cầu,M2 — Standard Trip,"type:feature,module:flutter,priority:p1",nquocthinh06,.github/issues/GOR-013.md
+GOR-014,Cloud Function nhận chuyến nguyên tử,M2 — Standard Trip,"type:feature,module:backend,priority:p0",Member 2,.github/issues/GOR-014.md
+GOR-015,Theo dõi chuyến và cập nhật trạng thái,M2 — Standard Trip,"type:feature,module:trip,priority:p0",nquocthinh06,.github/issues/GOR-015.md
+GOR-016,Xây dựng lịch tiện chuyến cho tài xế,M3 — Carpool Schedule,"type:feature,module:carpool,priority:p0",nquocthinh06,.github/issues/GOR-016.md
+GOR-017,Xây dựng CarpoolSchedule repository và tìm kiếm,M3 — Carpool Schedule,"type:feature,module:firebase,priority:p0",Member 2,.github/issues/GOR-017.md
+GOR-018,Xây dựng polyline utilities và route projection,M3 — Carpool Schedule,"type:feature,module:algorithm,priority:p1",Member 2,.github/issues/GOR-018.md
+GOR-019,"Matching tiện chuyến theo tuyến, chiều và thời gian",M3 — Carpool Schedule,"type:feature,module:algorithm,priority:p0",Member 2,.github/issues/GOR-019.md
+GOR-020,Giữ ghế và đặt tiện chuyến nguyên tử,M3 — Carpool Schedule,"type:feature,module:backend,priority:p0",Member 2,.github/issues/GOR-020.md
+GOR-021,Tính giá chuyến và giá tiện chuyến,M3 — Carpool Schedule,"type:feature,module:algorithm,priority:p1",Member 2,.github/issues/GOR-021.md
+GOR-022,Xây dựng giao diện tìm và xem kết quả tiện chuyến,M3 — Carpool Schedule,"type:feature,module:flutter,priority:p1",nquocthinh06,.github/issues/GOR-022.md
+GOR-023,Thiết kế Proposal và PassengerLeg state machine,M4 — Shared Trip,"type:feature,module:domain,priority:p0",Member 2,.github/issues/GOR-023.md
+GOR-024,Tạo thuật toán tối ưu thứ tự điểm dừng A/B,M4 — Shared Trip,"type:feature,module:algorithm,priority:p0",Member 2,.github/issues/GOR-024.md
+GOR-025,Xây dựng UI quy trình xác nhận ghép ba bên,M4 — Shared Trip,"type:feature,module:flutter,priority:p0",nquocthinh06,.github/issues/GOR-025.md
+GOR-026,Cloud Function atomic commit đề xuất ghép,M4 — Shared Trip,"type:feature,module:backend,priority:p0",Member 2,.github/issues/GOR-026.md
+GOR-027,Tích hợp end-to-end các luồng MVP,M4 — Shared Trip,"type:task,module:integration,priority:p0",Both,.github/issues/GOR-027.md
+GOR-028,"Hoàn thiện test report, tài liệu và demo",M5 — Final Delivery,"type:task,module:testing,priority:p0",Both,.github/issues/GOR-028.md

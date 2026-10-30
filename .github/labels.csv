@@ -1,0 +1,21 @@
+name,color,description
+priority:p0,B60205,Critical path / bắt buộc cho MVP
+priority:p1,D93F0B,"Quan trọng, sau P0"
+priority:p2,FBCA04,Có thể làm nếu còn thời gian
+type:feature,1D76DB,Tính năng mới
+type:bug,D73A4A,Lỗi cần sửa
+type:task,C5DEF5,Công việc kỹ thuật
+type:documentation,0075CA,Tài liệu
+type:testing,5319E7,Kiểm thử
+module:flutter,0E8A16,Flutter/Dart UI và app
+module:firebase,0366D6,Firebase/Auth/Firestore/Realtime DB
+module:backend,5319E7,Cloud Functions/backend
+module:domain,BFD4F2,Domain model và state machine
+module:algorithm,FBCA04,Matching/pricing/route algorithms
+module:maps,006B75,Maps/GPS/polyline
+module:trip,1D76DB,Đặt chuyến tiêu chuẩn và theo dõi chuyến
+module:carpool,0E8A16,Lịch tiện chuyến và ghép chuyến
+module:security,D93F0B,Security Rules và quyền
+module:integration,C2E0C6,Tích hợp hệ thống
+module:architecture,D4C5F9,Kiến trúc và contract
+status:blocked,000000,Đang bị chặn bởi phụ thuộc
