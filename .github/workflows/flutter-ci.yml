@@ -2,7 +2,7 @@ name: Flutter CI
 
 on:
   push:
-    branches: [main, develop]
+    branches: [main, develop, 'feature/**', 'fix/**']
   pull_request:
     branches: [main, develop]
 
@@ -14,24 +14,10 @@ jobs:
         working-directory: mobile
     steps:
       - uses: actions/checkout@v4
-      - name: Check Flutter project scaffold
-        id: check_pubspec
-        working-directory: .
-        run: |
-          if [ -f "mobile/pubspec.yaml" ]; then
-            echo "exists=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "exists=false" >> "$GITHUB_OUTPUT"
-            echo "mobile/pubspec.yaml not found yet (pending GOR-002 scaffold). Skipping Flutter checks."
-          fi
       - uses: subosito/flutter-action@v2
-        if: steps.check_pubspec.outputs.exists == 'true'
         with:
           channel: stable
           cache: true
       - run: flutter pub get
-        if: steps.check_pubspec.outputs.exists == 'true'
       - run: flutter analyze
-        if: steps.check_pubspec.outputs.exists == 'true'
       - run: flutter test
-        if: steps.check_pubspec.outputs.exists == 'true'
