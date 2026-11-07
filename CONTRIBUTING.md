@@ -48,7 +48,7 @@ Dùng Conventional Commits:
 ## 6. Phối hợp giữa hai thành viên
 
 - Member 1 phụ trách UI/UX, điều hướng, màn hình bản đồ và trình bày trạng thái.
-- Member 2 phụ trách Firebase, repository, nghiệp vụ, thuật toán và kiểm thử logic.
+- Member 2 (`nguyentruc241006`) phụ trách Firebase, repository, nghiệp vụ, thuật toán và kiểm thử logic.
 - Trước mỗi milestone, hai thành viên thống nhất model, tên field, trạng thái và chữ ký hàm.
 - Tích hợp theo contract; không chờ đến cuối tuần mới ghép code.
 - Họp ngắn tối thiểu 2 lần/tuần: đầu tuần chốt việc, cuối tuần demo và cập nhật Board.

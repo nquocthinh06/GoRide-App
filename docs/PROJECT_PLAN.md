@@ -14,7 +14,7 @@
 
 ## Phân công
 
-| Workstream | Member 1 | Member 2 |
+| Workstream | Member 1 (`nquocthinh06`) | Member 2 (`nguyentruc241006`) |
 |---|---|---|
 | Flutter UI/navigation | Lead | Hỗ trợ contract |
 | Maps/route display/GPS UI | Lead | Hỗ trợ dữ liệu |

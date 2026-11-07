@@ -46,8 +46,13 @@ Get-ChildItem (Join-Path $PSScriptRoot "issues") -Filter "GOR-*.md" | Sort-Objec
   $milestoneLine = ($body -split "`r?`n" | Where-Object { $_ -match '^\*\*Milestone:\*\* ' } | Select-Object -First 1)
   $milestone = $milestoneLine -replace '^\*\*Milestone:\*\* ', ''
   if ($milestoneTitles.ContainsKey($milestone)) { $args += @("--milestone",$milestone) }
-  if ($row.assignee -eq "nquocthinh06") { $args += @("--assignee","nquocthinh06") }
+  if ($row.assignee) {
+    foreach ($person in ($row.assignee -split ';')) {
+      $person = $person.Trim()
+      if ($person) { $args += @("--assignee", $person) }
+    }
+  }
   & gh @args
   if ($LASTEXITCODE -ne 0) { throw "Không tạo được $code" }
 }
-Write-Host "Bootstrap complete. Tạo GitHub Project board và mời thành viên thứ hai."
+Write-Host "Bootstrap complete. Tạo GitHub Project board và mời nguyentruc241006 nếu chưa có quyền collaborator."

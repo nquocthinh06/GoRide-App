@@ -46,7 +46,7 @@ GoRide tập trung vào hai luồng:
 | Thành viên | Phụ trách chính | Kết quả bàn giao |
 |---|---|---|
 | Member 1 — `nquocthinh06` | Flutter UI, navigation, map screens, GPS presentation, tích hợp giao diện | Màn hình Passenger/Driver, bản đồ, luồng thao tác |
-| Member 2 — GitHub username bổ sung sau | Firebase, data model, repositories, business logic, matching/pricing/route algorithms, tests | Firebase rules, Cloud Functions, domain logic, test cases |
+| Member 2 — `nguyentruc241006` | Firebase, data model, repositories, business logic, matching/pricing/route algorithms, tests | Firebase rules, Cloud Functions, domain logic, test cases |
 
 Hai thành viên cùng chịu trách nhiệm: phân tích SRS, thống nhất API/model contract, review PR, tích hợp, kiểm thử hệ thống, tài liệu và demo.
 

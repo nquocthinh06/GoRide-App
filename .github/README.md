@@ -11,7 +11,7 @@ Script tạo/cập nhật labels, tạo milestones nếu chưa có và tạo Iss
 
 Điều kiện: repository `nquocthinh06/GoRide-App` đã được tạo, GitHub CLI đã đăng nhập và tài khoản có quyền quản trị.
 
-Member 2 chưa cung cấp GitHub username nên Issue gợi ý Member 2 chưa được tự động assign. Các Issue `Both` cần thống nhất người phụ trách chính.
+Issue của Member 2 được gán cho `nguyentruc241006`. Issue `Both` được gán cho cả `nquocthinh06` và `nguyentruc241006`.
 
 ## GitHub Project
 
