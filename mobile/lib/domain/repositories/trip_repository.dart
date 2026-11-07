@@ -8,3 +8,4 @@ abstract interface class TripRepository {
   Stream<Trip?> watchTrip(String tripId);
   Stream<List<Trip>> watchMyTrips();
 }
+

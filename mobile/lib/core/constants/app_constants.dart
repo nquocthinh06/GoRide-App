@@ -10,3 +10,4 @@ class AppConstants {
   static const double carpoolCorridorKm = 1.5;
   static const int carpoolTimeWindowMinutes = 30;
 }
+

@@ -22,3 +22,4 @@ class Trip {
   final int fare;
   final int version;
 }
+

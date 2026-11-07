@@ -24,3 +24,4 @@ final appRouterProvider = Provider<GoRouter>((ref) {
     ],
   );
 });
+

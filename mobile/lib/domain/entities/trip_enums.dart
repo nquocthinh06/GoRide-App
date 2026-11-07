@@ -51,3 +51,4 @@ enum ProposalActor {
   passengerB,
   driver,
 }
+

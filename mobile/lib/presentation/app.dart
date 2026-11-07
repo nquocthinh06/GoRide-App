@@ -20,3 +20,4 @@ class GoRideApp extends ConsumerWidget {
     );
   }
 }
+

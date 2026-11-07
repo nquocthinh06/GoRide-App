@@ -13,3 +13,4 @@ abstract interface class CarpoolRepository {
   );
   Stream<CarpoolProposal?> watchProposal(String proposalId);
 }
+

@@ -26,3 +26,4 @@ class CarpoolProposal {
   final CarpoolProposalStatus status;
   final int version;
 }
+

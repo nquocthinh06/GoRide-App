@@ -18,3 +18,4 @@ final class Failure<T> extends Result<T> {
 
   final AppFailure failure;
 }
+

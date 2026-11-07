@@ -50,3 +50,4 @@ class CarpoolMatch {
   final double extraDistanceKm;
   final int extraDurationMinutes;
 }
+

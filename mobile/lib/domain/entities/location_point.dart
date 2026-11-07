@@ -9,3 +9,4 @@ class LocationPoint {
   final double longitude;
   final String address;
 }
+
